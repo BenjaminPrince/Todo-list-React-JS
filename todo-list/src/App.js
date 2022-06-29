@@ -5,7 +5,7 @@ import TodoList from './components/TodoList';
 function App() {
   return (
     <div className="App">
-      <span className='todoTitle'>Todo List</span>
+      <span className="todoTitle"></span>
       <TodoList/>     
     </div>
   );

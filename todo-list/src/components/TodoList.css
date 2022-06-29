@@ -1,0 +1,38 @@
+.todoContainer {
+    background-color: salmon;
+    height: 600px;
+}
+
+.todoHeader {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.inputSection {
+    padding: 15px 30px;
+}
+
+.listContainer {
+    padding: 0 30px 15px 0;
+    width: 100%;
+}
+
+.listContainer>li {
+    display: flex;
+    width: 100%;
+}
+
+.listBtn {
+    display: flex;
+    float: right;
+
+}
+
+.holdText {
+    text-decoration: line-through;
+    font-size: italic;
+    color: gray;
+}
